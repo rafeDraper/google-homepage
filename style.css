@@ -1,0 +1,42 @@
+
+.firstForm {
+    size: 220px;
+}
+
+.treeList ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 10px 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none; 
+
+}
+
+.listLeft li{
+    float: left;
+    padding: 9px;
+    display: block;
+    
+ 
+ }
+
+ .listRight li{
+    float: right;
+    padding: 9px;
+ 
+ }
+
+ .botlist {
+    float: left;
+    display: flex;
+    
+     
+ }
+
+ .botrlist {
+    float: right;
+    display: flex;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
