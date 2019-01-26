@@ -1,42 +1,41 @@
 
-.firstForm {
-    size: 220px;
+.sbar {
+   width: 30%;
+   height: 15px;
+   padding: 12px 20px;
+   margin: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: 22px;
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
 }
 
-.treeList ul {
+.image {
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+
+.btnright, .btnleft {
+   position: relative;
+  left: 50%;
+  transform: translateX(-100%);
+}
+
+.llist, .rlist, .bbar {
+   display: -webkit-inline-flex;
+   padding: 10px;
+}
+
+ul {
    list-style-type: none;
    margin: 0;
-   padding: 10px 16px;
-   font-family: Arial, Helvetica, sans-serif;
-   text-decoration: none; 
-
-}
-
-.listLeft li{
-    float: left;
-    padding: 9px;
-    display: block;
-    
- 
- }
-
- .listRight li{
-    float: right;
-    padding: 9px;
- 
- }
-
- .botlist {
-    float: left;
-    display: flex;
-    
-     
- }
-
- .botrlist {
-    float: right;
-    display: flex;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
+   padding: 0;
 }
