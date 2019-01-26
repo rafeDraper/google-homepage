@@ -1,41 +1,121 @@
+a {
+   text-decoration: none;
+   color: black
+}
+body {
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+   display: flex;
+   justify-content: space-between;
+   height: 60px;
+   font-size: 15px;
+}
+ul {
+   list-style-type: none;
+   padding-inline-start: 0px;
+}
+
+.leftnav {
+   display: flex;
+   align-items: center;
+   
+}
+
+.leftnav a {
+   padding-left: 20px;
+}
+
+.rightnav {
+   display:flex;
+   align-items: center;
+}
+
+.rightnav a {
+   padding:10px 10px 10px;
+   margin-right: 20px;
+   text-align: center;
+}
+
+
+
+#bodyImageSearch {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
 
 .sbar {
-   width: 30%;
-   height: 15px;
-   padding: 12px 20px;
-   margin: 8px;
-   border: 1px solid #ccc;
-   border-radius: 4px;
-   background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
-   background-position: right;
-   background-repeat: no-repeat;
-   background-size: 22px;
-   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-   display: block;
-   margin-right: auto;
-   margin-left: auto;
+   width: 590px;
+    height: 45px;
+    border: .5px solid #fff;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+
+}
+.searchbar {
+   margin-left: 15px;
+   border-style: none;
+   width: 90%;
+   height: 60%;
+   display: flex;
+   align-self: center;
+}
+
+.sbar a {
+   display:flex;
+   align-self: center;
+   margin-right: 15px;
 }
 
 .image {
+padding-top: 170px;
+
+}
+
+.searchButtons {
+   margin-top: 15px;
+}
+
+.searchButtons [type="button"] {
+   padding: 10px 15px;
+   font-weight: bold;
+   margin: 8px;
+   border-style: none;
+   color: #737373;
+   background-color: #f2f2f2;
+
+}
+
+#botbar {
    display: block;
-   margin-right: auto;
-   margin-left: auto;
-
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    border-top: .5px solid #e6e6e6;
+    background-color: #f2f2f2;
 }
 
-.btnright, .btnleft {
-   position: relative;
-  left: 50%;
-  transform: translateX(-100%);
+.deutschland {
+   padding-left: 20px;
+   display: block;
 }
 
-.llist, .rlist, .bbar {
-   display: -webkit-inline-flex;
-   padding: 10px;
+.bbar {
+   display: flex;
+   align-items: center;
+   
 }
 
-ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
+.bbar a {
+   padding-left: 20px;
 }
